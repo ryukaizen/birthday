@@ -1,4 +1,4 @@
-![Birthday Cake @Ryukaizen](https://freesvg.org/img/birthday-cake.png)
+<img src="https://freesvg.org/img/birthday-cake.png" width="100" height="100">
 
 # Birthday
 Automated birthday greeting script. Made using PyMongo, smtplib and PIL. 
@@ -22,11 +22,17 @@ Firstly, rename `.env.example` to `.env`.
 Configure these environment variables:
 
 `GMUSER = youremail@xyzmail.com`
+
 `GMPASS = password`
+
 `HOST = smtp.gmail.com`
+
 `PORT = 587`
+
 `MONGO_URL = mongodb+srv://<username>:<password>@abcdcluster.mongodb.net/?retryWrites=true&w=majority`
+
 `DB_NAME = your_mongodb_database_name`
+
 `COLLECTION_NAME = your_mongodb_database_collection_name`
 
 Install required modules by doing `pip install -r requirements.txt` in terminal.
