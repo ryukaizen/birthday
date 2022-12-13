@@ -1,6 +1,8 @@
+<p align="center" width="100%">
 <img src="https://freesvg.org/img/birthday-cake.png" width="100" height="100">
+</p>
 
-# Birthday
+# Birthday Greeter
 Automated birthday greeting script. Made using PyMongo, smtplib and PIL. 
 
 ## Features
