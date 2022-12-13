@@ -6,17 +6,17 @@
 Automated birthday greeting script. Made using PyMongo, smtplib and PIL. 
 
 ## Features
-1. Automated emailing of wishes
-    - Scheduled delivery at 12:00 AM
-    - Random wishes
-    - Current age calculation
-2. Birthday card generation using Pillow
-    - Random birthday card backgrounds
-    - Send as an attachment with emails
-3. MongoDB as database 
-    - Add/Remove birthdays
-    - Show upcoming birthdays
-    - List every birthday
+1. Automated emailing of wishes.
+    - Scheduled delivery at 12:00 AM.
+    - Random wishes.
+    - Current age calculation.
+2. Birthday card generation using Pillow.
+    - Random birthday card backgrounds.
+    - Send as an attachment with emails.
+3. MongoDB as database.
+    - Add/Remove birthdays.
+    - Show upcoming birthdays.
+    - List every birthday.
 
 ## Configuration
 Firstly, rename `.env.example` to `.env`.
@@ -39,4 +39,4 @@ Configure these environment variables:
 
 Install required modules by doing `pip install -r requirements.txt` in terminal.
 
-To run, simply do `python main.py`
+To run, simply do `python main.py`.
