@@ -28,8 +28,8 @@ DB_NAME = os.getenv('DB_NAME')
 COLLECTION_NAME = os.getenv('COLLECTION_NAME')
 
 client = pymongo.MongoClient(MONGO_URI, ssl=True)
-db = client[f'DB_NAME']
-collection = db[f'COLLECTION_NAME']
+db = client[f'{DB_NAME}']
+collection = db[f'{COLLECTION_NAME}']
 
 today = datetime.today()
 
