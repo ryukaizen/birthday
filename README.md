@@ -42,8 +42,8 @@ Install required modules by doing `pip install -r requirements.txt` in terminal.
 To run, simply do `python main.py`.
 
 ## To-do
-- [] Input timeout
+- [ ] Input timeout
 
-- [] Custom greetings
+- [ ] Custom greetings
 
-- [] Print if there are no upcoming birthdays
+- [ ] Print if there are no upcoming birthdays
