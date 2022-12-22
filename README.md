@@ -3,7 +3,7 @@
 </p>
 
 # Birthday Greeter
-Automated birthday greeting script. Made using PyMongo, smtplib and PIL. 
+Scheduled birthday greeting script. Made using PyMongo, smtplib and PIL. 
 
 ## Features
 1. Automated emailing of wishes.
